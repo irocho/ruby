@@ -1,0 +1,56 @@
+ruby2018 - HA 1.3
+======================
+**Implementiere eine Methode zur Berechnung der durchschnittlichen täglichen Arbeitszeit pro Monat!**
+
+### Aufgabe
+Lege dazu eine Methode `work_per_month` an, die eine Liste (ein Array) von `Hash`-Objekten als Parameter akzeptiert und aus dieser Liste eine Statistik über die in jedem Monat geleistete Arbeit erstellt.
+
+* Der Rückgabewert der Methode sollte ein `Hash` sein - dabei sollten die Schlüssel den Monat und die Werte die in diesem Monat **durchschnittlich pro Arbeitstag** gearbeitete Zeit angeben.
+* Als Arbeitstage gelten nur die Tage, an denen Arbeit geleistet wurde.
+* Der Monat sollte im Format "2018-10" (für den Oktober 2018) als Zeichenkette (`String`) formatiert werden.
+* Die Zeit sollte als Ganzzahl (`Integer`) zurückgegeben werden - der Wert beschreibt die Minuten, die im Monat durchschnittlich gearbeitet wurden (abgerundet auf ganze Minuten).
+* Monate, in denen keine Arbeit geleistet wurde, sollten im Hash nicht auftauchen.
+
+Jedes der `Hash`-Objekte in der Liste beschreibt einen Arbeitsblock an einem Tag: woran wie lange gearbeitet wurde. **Es kann dabei pro Tag mehrere solcher Objekte geben.**
+
+### Referenz
+Die übergebenen `Hashes` haben *alle* die folgenden Schlüssel:
+
+- `:work` - Eine Zeichenkette (`String`) mit der Beschreibung der jeweiligen Arbeit
+- `:date` - Der Tag im Format "2018-10-03" (für den 3. Oktober 2018) als Zeichenkette (`String`)
+- `:time` - Die für diese Arbeit verwendete Zeit *in Minuten* als Ganzzahl (`Integer`)
+
+### Beispiel
+
+**Eingabe:**
+
+    
+    [
+      {work: "item 1", date: "2017-04-26", time: 20},
+      {work: "item 2", date: "2017-04-27", time: 27},
+      {work: "item 3", date: "2017-04-27", time: 33},
+      {work: "item 4", date: "2017-05-05", time: 20},
+      {work: "item 5", date: "2017-05-06", time: 12},
+      {work: "item 6", date: "2017-05-14", time: 10},
+    ]
+
+**Ausgabe:**
+
+    { "2017-04" => 40, "2017-05" => 14 }
+
+**Erklärung:**
+
+- 20 Minuten am 26. April und *insgesamt* 60 Minuten am 27. April: durchschnittlich 40 Minuten im April
+- 20 Minuten am 5. Mai, 12 Minuten am 6. Mai und 10 Minuten am 14. Mai: durchschnittlich 14 Minuten im Mai
+
+### Tipp
+Alle benötigten Methoden zur Lösung der Aufgabe haben wir in den Videos vorgestellt.
+Studiere die Dokumentationen für die Ruby-Klassen [Integer][1] und [Array][2], um weitere nützliche Methoden für die Implementierung dieser Aufgabe zu entdecken. Weitere - sehr nützliche - Methoden der Klasse Array finden sich auch im [Enumerable-Modul][3].
+
+### Noch ein Tipp
+**Nicht aufgeben!** Auch Teillösungen können Punkte bringen.
+
+
+  [1]: https://ruby-doc.org/core-2.5.0/Integer.html
+  [2]: https://ruby-doc.org/core-2.5.0/Array.html
+  [3]: https://ruby-doc.org/core-2.5.0/Enumerable.html

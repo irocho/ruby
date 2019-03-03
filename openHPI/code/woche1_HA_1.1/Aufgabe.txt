@@ -1,0 +1,30 @@
+ruby2018 - Selbsttest 1.4
+======================
+**Implementiere die `map`-Operation.**
+
+Wie wir wissen, kann mit `Array#map` eine Liste in eine neue Liste "umgewandelt" werden, indem ein Block auf jedes Element der Liste angewandt wird. Der Rückgabewert des Blockes bestimmt, wie das jeweilige Element in der neuen Liste aussieht.
+
+### Aufgabe
+
+Implementiere die Methode `map` als globale Funktion, die als Parameter eine Ausgangsliste akzeptiert und einen Block entgegennimmt.
+Die Methode soll ein neues `Array` zurückgeben, die für jedes Element der Eingabeliste ein Element enthält, das sich aus der Anwendung des Blockes auf das entsprechende Element ergibt.
+
+**Hinweise:**
+
+- Die Ausgangsliste soll unverändert bleiben.
+- Auch Reihen sollten als Eingabe akzeptiert werden. Der Rückgabewert sollte auch in diesem Fall eine Liste sein.
+
+### Beispiele
+
+Zahlen in einer Liste verdoppeln:
+
+    map([1, 2, 3, 4]) { |element| element * 2 } # => [2, 4, 6, 8]
+
+Zahlen in einer Reihe verdoppeln:
+
+    map(1..4) { |element| element * 2 } # => [2, 4, 6, 8]
+
+### Tipp
+
+Durch Klick auf "Bewerten" werden die automatisierten Tests ausgeführt, die die Punkte für deine Lösung berechnen.
+Dieser Button kann beliebig oft geklickt werden - auch, wenn die Lösung noch nicht fertig ist.

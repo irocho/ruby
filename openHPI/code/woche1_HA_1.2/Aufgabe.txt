@@ -1,0 +1,51 @@
+ruby2018 - HA 1.2
+======================
+**Implementiere die `reduce`-Operation.**
+
+`reduce` ist eine mächtige Abstraktion, mit deren Hilfe man auch viele der anderen Listen-Operationen wie `map` und `select` implementieren kann.
+
+Zur Erinnerung: `reduce` macht aus einer Liste einen beliebigen Wert, indem es für jedes Element der Liste den übergebenen Block ausführt, der aus einem Zwischenergebnis und dem Element das nächste Zwischenergebnis für die nächste Iteration macht.
+
+### Aufgabe
+
+Implementiere die Methode `reduce`, sodass sie zwei Parameter - das zu reduzierende Objekt und den Startwert bzw. das erste Zwischenergebnis - und einen Block entgegennimmt.
+
+**Hinweise:**
+
+- Für volle Punktzahl müssen die folgenden Beispiele alle mit deiner Version von `reduce` funktionieren.
+- Die Benutzung der Array-Methode `array.reduce` ist untersagt.
+- Auch bei leeren Listen muss ein vernünftiges Ergebnis zurückgegeben werden - beachte den übergebenen Startwert!
+
+
+### Beispiele
+
+Alle Zahlen einer Liste aufsummieren:
+
+    reduce([1, 2, 3, 4], 0) { |sum, element| sum + element } # => 10
+
+Das ganze funktioniert auch mit Reihen:
+
+    reduce(1..4, 0) { |sum, element| sum + element } # => 10
+
+Strings verketten:
+
+    # Gleicher Block, anderes Verhalten
+    reduce(["a", "b", "c", "d"], "") { |sum, element| sum + element } # => "abcd"
+
+`select` mithilfe von `reduce` implementieren:
+
+    def select(list)
+      reduce(list, []) do |new_ary, element|
+        if yield element
+          new_ary << element
+        end
+        new_ary
+      end
+    end
+
+    select([1, 2, 3, 4]) { |element| element.even? } # => [2, 4]
+
+### Tipp
+
+Durch Klick auf "Bewerten" werden die automatisierten Tests ausgeführt, die die Punkte für deine Lösung berechnen.
+Auch Teillösungen können Punkte und wertvolles Feedback für den Rest der Lösung liefern.
