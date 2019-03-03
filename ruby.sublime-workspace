@@ -1,0 +1,346 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"call"
+			],
+			[
+				"sel",
+				"select\tfunc"
+			],
+			[
+				"pu",
+				"puts"
+			],
+			[
+				"do",
+				"dobres"
+			],
+			[
+				"nu",
+				"num2"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"text",
+				"text-orientation\tproperty"
+			],
+			[
+				"c",
+				"center\ttext-align"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"MarkdownLivePreview: Edit Current File"
+			],
+			[
+				"Evernote",
+				"Evernote Settings: Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lint",
+				"Build With: JSLint"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"r",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"gru",
+				"gruvbox: Select Theme"
+			],
+			[
+				"packea",
+				"Package Control: Enable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"colosche",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 202.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bea/Documents/_Informática/Programación/Ruby"
+	],
+	"file_history":
+	[
+		"/Users/bea/Documents/_Informática/Programación/Ruby/README.md",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/intendencia.md",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/User/MarkdownLivePreview.css",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/openHPI/code/woche1_HA_1.1/map.rb",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/openHPI/code/woche1-2.rb",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/openHPI/code/woche1-1.rb",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/openHPI/code/woch1_Selbsttest_1.4/selbstesten1-4.rb",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/openHPI/code/selbstesten1-4.rb",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/code/woche1-2.rb",
+		"/Users/bea/Library/Mobile Documents/com~apple~CloudDocs/1819/Ruby/code/woche1.rb",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/Evernote/Evernote.sublime-settings",
+		"/Users/bea/Desktop/chicosJS/irocho/ex2_mate/ex2.js",
+		"/Users/bea/Desktop/chicosJS/exerciciosJavascript-master/ex3_funcioncitas/ejercicioMedia.js",
+		"/Volumes/AZULITO/Dropbox/AplicaciónsWeb/exerciciosJavascript/xogo_acertarNumerito.js",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/User/JavaScript Enhancements.sublime-settings",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/JavaScript Enhancements/JavaScript Enhancements.sublime-settings",
+		"/Volumes/AZULITO/Dropbox/AplicaciónsWeb/ex_fin1trim/exame.html",
+		"/Volumes/AZULITO/Dropbox/AplicaciónsWeb/ex_fin1trim/estilo.css",
+		"/Volumes/AZULITO/Dropbox/AplicaciónsWeb/ex_css/postalita/veteran_typewriter.ttf",
+		"/Volumes/AZULITO/Dropbox/AplicaciónsWeb/ex_css/postalita/._.DS_Store",
+		"/Users/bea/Desktop/bootstrap4/anotacións.md",
+		"/Users/bea/Desktop/formularioCSS/postal.css",
+		"/Users/bea/Desktop/formularioCSS/index.html",
+		"/Users/bea/Desktop/StackEdit local storage.json",
+		"/Volumes/AZULITO/SublimeText_saber.md",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/bea/Documents/nube/irocho_repos/irocho.github.io/irocho-io.sublime-project",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/bea/Desktop/iiii.html",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/bea/Desktop/kkk.html",
+		"/Users/bea/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 149.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ruby.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
