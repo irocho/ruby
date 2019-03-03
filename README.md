@@ -31,5 +31,8 @@ https://www.rubyguides.com/
 * [Problemas coas versións](https://stackoverflow.com/questions/54738120/build-new-rails-app-error-loading-the-sqlite3-without-evidently-write-verion)
 
 
+## MOOC consultados:
 
+[openHPI]()
+[coursera]()
 

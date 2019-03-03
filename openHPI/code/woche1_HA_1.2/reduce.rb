@@ -6,8 +6,6 @@
 # puts sol
 
 
-
-
 def reduce(list, initial)
   # Hier den Algorithmus implementieren
   sol = initial
