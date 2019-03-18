@@ -4,7 +4,7 @@
 #
 # => 1.1 Die Programmiersprache Ruby.pdf
 #
-# executar no terminal como ruby woche1.rb
+# executar no terminal como ruby woche1-2_bloques.rb
 #
 # en Sublime Text con mazá B
 #
