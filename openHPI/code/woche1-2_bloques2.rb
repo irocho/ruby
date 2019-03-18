@@ -38,7 +38,7 @@ puts catroveces
 puts (" ######### Bloque explícito  #########")
 
 
-def tres_chamadas (& bloquito)
+def tres_chamadas (&bloquito)
 	bloquito.call
 	bloquito.call
 	bloquito.call
@@ -49,6 +49,7 @@ tres_chamadas{puts "Chau"}
 
 ########################################
 puts (" ######### Métodos con bloques  ######### ")
+#Block arguments are listed between pipes |, instead of parentheses.
 
 def metodito
 	yield("John",2)
@@ -59,3 +60,19 @@ end
 metodito{|nome, anos| puts "#{nome} ten #{anos} primaveras"}
 
 
+def sumazo
+	yield 10,20
+end
+
+
+#Block arguments are listed between pipes |, instead of parentheses.
+puts sumazo{|a, b| a+b}
+
+
+
+def calculate_tax(income)
+  tax_rate = 0.2
+  yield income * tax_rate
+end
+
+puts calculate_tax(5)
