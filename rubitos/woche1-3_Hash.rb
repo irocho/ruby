@@ -1,10 +1,21 @@
-# Dous xeitos de fabricar un HASH
+###################################################
+##
+##  openHPI
+##
+## => 
+##
+## executar no terminal como ruby woche1-2_bloques.
+##
+## en Sublime Text con mazá B
+##################################################
 
+
+# Dous xeitos de fabricar un HASH
 idiomas = {:de => "Deutsch", :en => "Englisch"}
 idiomas = {de:"Deutsch", en:"Englisch"}
 
 puts idiomas[:de]
-
+ññ
 #engadir
 idiomas[:fr] = "Franchute"
 puts idiomas
