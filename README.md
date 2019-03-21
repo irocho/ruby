@@ -3,13 +3,9 @@
 ## Ferramentas
 
 > brew
-
 > gem
-
 > bundle
-
 > git
-
 > phantom NON....
 
 Popular ruby manager: rbenv
@@ -20,7 +16,7 @@ https://guides.rubyonrails.org/getting_started.html
 
 https://www.rubyguides.com/
 
-[Chuleta rápida en i-rochiño](https://gist.github.com/irocho/ab638b3f1214536c478a695c4cfd8364)
+[Chuleta rápida para usar Sublime Text](https://gist.github.com/irocho/ab638b3f1214536c478a695c4cfd8364)
 
 
 ## Instalación de Ruby no mac
