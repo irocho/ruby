@@ -29,6 +29,6 @@ https://www.rubyguides.com/
 
 ## MOOC consultados:
 
-[openHPI]()
-[coursera]()
+[openHPI](https://open.hpi.de/courses/ruby2018)
+[coursera](https://www.coursera.org/learn/ruby-on-rails-intro/)
 

@@ -1,12 +1,23 @@
-# Dous xeitos de fabricar un HASH
+###################################################
+##
+##  openHPI
+##
+## => 
+##
+## executar no terminal como ruby woche1-2_bloques.
+##
+## en Sublime Text con mazá B
+##################################################
 
+
+# Dous xeitos de fabricar un HASH
 idiomas = {:de => "Deutsch", :en => "Englisch"}
 idiomas = {de:"Deutsch", en:"Englisch"}
 
 puts idiomas[:de]
-
+ññ
 #engadir
-idiomas[:fr] = "Franchute"; 
+idiomas[:fr] = "Franchute"
 puts idiomas
 
 # mostrar bonito
@@ -45,7 +56,7 @@ tasks = [
 puts tasks[0] 		# xa que é un array
 puts tasks.last 	# método de fábrica
 
-puts "=========== existe a chave chamada 'start'?"
+puts "\n=========== existe a chave chamada 'start'?"
 puts tasks.all? { |e| e.key?(:start) } 
 
 puts "\n ===========teñen todas chave chamada 'end' ? "
@@ -58,10 +69,6 @@ puts tasks.find { |e| !e[:end] }
 
 puts "\n===========  asunto de todas as tarefas que teñen de 'tag' o valor 'openhpi'"
 tasks.each { |e| puts e[:text] if e[:tag]=="openhpi"} 
-
-
-
-
 
 
 

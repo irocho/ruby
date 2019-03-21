@@ -3,7 +3,10 @@
 # Facer git como churros
 
 git add --all
-git commit -m modificado
+
+read mensaxe
+
+git commit -m $mensaxe
 git push
 echo "================="
 git status
