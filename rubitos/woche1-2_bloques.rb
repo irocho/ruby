@@ -57,22 +57,3 @@ tochazo = ["Pepo", "Pedro", "Paquita"]
 	.each {|mensaxe| puts(mensaxe)}
 
 puts(tochazo)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
